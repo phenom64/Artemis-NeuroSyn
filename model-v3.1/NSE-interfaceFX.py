@@ -40,7 +40,7 @@ BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 MEDIA_PATH = os.path.join(BASE_PATH, "NSEmedia")
 
 # Your custom modules
-from prediction import GesturePredictor
+from UnifiedController import main_unified, GesturePredictor
 from constants import MYO_ADDRESS
 
 from pymyo import Myo
